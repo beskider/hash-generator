@@ -26,7 +26,30 @@ elFileInput.addEventListener('change', (event) => {
 elSwitchAlgorithm.addEventListener('change', (event) => {
     elTextInput.value = '';
     elFileInput.value = '';
-    elResult.textContent = hash('');
+    
+    let algorithm = document.querySelector('input[name=algorithm]:checked').id;
+    
+    switch (algorithm) {
+        case 'md5':
+            elResult.style.fontSize = '1.6rem';
+            elResult.style.height = '1.6rem';
+            break;
+        case 'sha1':
+            elResult.style.fontSize = '1.4rem';
+            elResult.style.height = '1.4rem';
+            break;
+        case 'sha2':
+            elResult.style.fontSize = '0.45rem';
+            elResult.style.height = '0.6rem';
+            break;
+        case 'sha3':
+            elResult.style.fontSize = '0.45rem';
+            elResult.style.height = '0.6rem';
+            break;
+    }      
+    
+    elResult.textContent = hash('');    
+    
 }, false );   
     
 function hash(content) {
