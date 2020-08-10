@@ -31,23 +31,23 @@ elSwitchAlgorithm.addEventListener('change', (event) => {
     
     switch (algorithm) {
         case 'md5':
-            elResult.style.fontSize = '1.6rem';
-            elResult.style.height = '1.6rem';
+            elResult.style.fontSize = '2.1vw';
+            elResult.style.height = '2.1vw';
             break;
         case 'sha1':
-            elResult.style.fontSize = '1.4rem';
-            elResult.style.height = '1.4rem';
+            elResult.style.fontSize = '1.7vw';
+            elResult.style.height = '1.7vw';
             break;
         case 'sha2':
-            elResult.style.fontSize = '0.45rem';
-            elResult.style.height = '0.6rem';
+            elResult.style.fontSize = '0.5vw';
+            elResult.style.height = '0.5vw';
             break;
         case 'sha3':
-            elResult.style.fontSize = '0.45rem';
-            elResult.style.height = '0.6rem';
+            elResult.style.fontSize = '0.5vw';
+            elResult.style.height = '0.5vw';
             break;
     }      
-    
+
     elResult.textContent = hash('');    
     
 }, false );   
