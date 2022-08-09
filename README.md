@@ -4,6 +4,8 @@ A simple page to calculate hashes for strings or files.
 
 The website is available at https://beskider.github.io/hash-generator/
 
+![Image](./images/screen.jpg)
+
 ## Technologies
 
 * HTML, CSS, JS
@@ -17,6 +19,8 @@ The website is available at https://beskider.github.io/hash-generator/
 Prosta strona generująca skróty (hash) dla ciągów tekstowych lub plików. 
 
 Strona dostępna pod adresem https://beskider.github.io/hash-generator/
+
+![Image](./images/screen.jpg)
 
 ## Użyte technologie
 
